@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.cdnfonts.com/css/sofia-pro"
+            rel="stylesheet"
+        />
+        <title>Weather Web</title>
+      <script type="module" crossorigin src="/assets/index-KaoutaI_.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-BzK3mnzb.css">
+    </head>
+    <body class="blurred">
+        <main class="main-container">
+            <!-- Left Section -->
+            <section class="left-section">
+                <header class="header">
+                    <span class="location" data-location="Multan">Multan</span>
+                    <time class="date" data-date="2021-04-21">21.04.2021</time>
+                </header>
+                <article class="current-weather">
+                    <div class="temperature">
+                        <span data-temp="20">20</span>&deg;
+                    </div>
+                    <div class="weather-info">
+                        <div class="wind-speed">
+                            <img
+                                class="weather-icon"
+                                src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='800px'%20height='800px'%20viewBox='0%20-1%2028%2028'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'%3e%3ctitle%3ewind%3c/title%3e%3cdesc%3eCreated%20with%20Sketch%20Beta.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%20sketch:type='MSPage'%3e%3cg%20id='Icon-Set-Filled'%20sketch:type='MSLayerGroup'%20transform='translate(-468.000000,%20-832.000000)'%20fill='%23000000'%3e%3cpath%20d='M490,846%20L469,846%20C468.447,846%20468,846.447%20468,847%20C468,847.553%20468.447,848%20469,848%20L488.833,848%20C491.687,848%20494,849.791%20494,852%20C494,854.209%20492.291,856%20488,856%20L488,858%20L490,858%20C493.313,858%20496,855.313%20496,852%20C496,848.687%20493.313,846%20490,846%20L490,846%20Z%20M482.002,850%20L474,850%20C473.447,850%20473,850.448%20473,851%20C473,851.553%20473.447,852%20474,852%20L482,852%20C483.104,852%20484,852.896%20484,854%20C484,855.104%20483.104,856%20482,856%20L482,858%20C484.209,858%20486,856.209%20486,854%20C486,851.792%20484.21,850.002%20482.002,850%20L482.002,850%20Z%20M477,840%20L489,840%20C489.553,840%20490,839.553%20490,839%20C490,838.448%20489.553,838%20489,838%20L477,838%20C476.447,838%20476,838.448%20476,839%20C476,839.553%20476.447,840%20477,840%20L477,840%20Z%20M472,844%20L490,844%20C493.313,844%20496,841.313%20496,838%20C496,834.687%20493.313,832%20490,832%20L490,834%20C492.822,834.531%20494,835.791%20494,838%20C494,840.209%20491.687,842%20488.833,842%20L472,842%20C471.447,842%20471,842.448%20471,843%20C471,843.553%20471.447,844%20472,844%20L472,844%20Z'%20id='wind'%20sketch:type='MSShapeGroup'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+                                alt="Wind Icon"
+                            />
+                            <span>
+                                <span data-wind-speed="6.1">6.1</span>
+                                mph
+                            </span>
+                        </div>
+                        <div class="humidity">
+                            <img
+                                class="weather-icon"
+                                src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='800px'%20height='800px'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12%2021.5C16.1012%2021.5%2019.5%2018.4372%2019.5%2014.5714C19.5%2012.1555%2018.2672%209.71249%2016.8732%207.70906C15.4698%205.69214%2013.8515%204.04821%2012.9778%203.21778C12.4263%202.69364%2011.5737%202.69364%2011.0222%203.21779C10.1485%204.04821%208.53016%205.69214%207.1268%207.70906C5.73282%209.71249%204.5%2012.1555%204.5%2014.5714C4.5%2018.4372%207.8988%2021.5%2012%2021.5Z'%20stroke='%23222222'/%3e%3cpath%20d='M12%2018C11.4747%2018%2010.9546%2017.8965%2010.4693%2017.6955C9.98396%2017.4945%209.54301%2017.1999%209.17157%2016.8284C8.80014%2016.457%208.5055%2016.016%208.30448%2015.5307C8.10346%2015.0454%208%2014.5253%208%2014'%20stroke='%23222222'%20stroke-linecap='round'/%3e%3c/svg%3e"
+                                alt="Humidity Icon"
+                            />
+
+                            <span>
+                                <span data-humidity="90">90</span>
+                                %</span
+                            >
+                        </div>
+                    </div>
+                    <div class="condition" data-condition="Cloudy">Cloudy</div>
+                </article>
+                <section class="daily-forecast">
+                    <div class="forecast day">
+                        <span class="day-name" data-day="Today">Today</span>
+                        <span class="temperature" data-temp="20">20°</span>
+                        <span class="condition" data-condition="Mist"
+                            >Mist</span
+                        >
+                    </div>
+                    <div class="forecast day" data-day="Tuesday">
+                        <span class="day-name">Tue</span>
+                        <span class="temperature" data-temp="32">32°</span>
+                        <span class="condition" data-condition="Sunny"
+                            >Sunny</span
+                        >
+                    </div>
+                    <div class="forecast day" data-day="Wednesday">
+                        <span class="day-name">Wed</span>
+                        <span class="temperature" data-temp="12">12°</span>
+                        <span class="condition" data-condition="Rainy"
+                            >Rainy</span
+                        >
+                    </div>
+                    <div class="forecast day" data-day="Thursday">
+                        <span class="day-name">Thu</span>
+                        <span class="temperature" data-temp="13">13°</span>
+                        <span class="condition" data-condition="Rainy"
+                            >Rainy</span
+                        >
+                    </div>
+                    <div class="forecast day" data-day="Friday">
+                        <span class="day-name">Fri</span>
+                        <span class="temperature" data-temp="22">22°</span>
+                        <span class="condition" data-condition="Mist"
+                            >Mist</span
+                        >
+                    </div>
+                    <div class="forecast day" data-day="Saturday">
+                        <span class="day-name">Sat</span>
+                        <span class="temperature" data-temp="22">22°</span>
+                        <span class="condition" data-condition="Mist"
+                            >Mist</span
+                        >
+                    </div>
+                </section>
+            </section>
+
+            <!-- Right Section -->
+            <section class="right-section">
+                <header class="header">
+                    <span class="greeting" data-greeting>Good Morning</span>
+                    <time class="time" data-time="12:27">12:27 PM</time>
+                </header>
+                <section class="hourly-forecast">
+                    <h2 class="title">Hourly Forecast</h2>
+                    <div class="forecast-container">
+                        <div class="forecast hour" data-hour="13:00">
+                            <time class="hour-time" data-time="13:00"
+                                >1 PM</time
+                            >
+                            <span class="temperature" data-temp="20">20</span>
+                            <span class="condition" data-condition="Cloudy"
+                                >Cloudy</span
+                            >
+                        </div>
+                        <div class="forecast hour" data-hour="14:00">
+                            <time class="hour-time" datetime="14:00">2 PM</time>
+                            <span class="temperature" data-temp="21">21°</span>
+                            <span class="condition" data-condition="Rainy"
+                                >Rainy</span
+                            >
+                        </div>
+                        <div class="forecast hour" data-hour="15:00">
+                            <time class="hour-time" datetime="15:00">3 PM</time>
+                            <span class="temperature" data-temp="21">21°</span>
+                            <span class="condition" data-condition="Rainy"
+                                >Rainy</span
+                            >
+                        </div>
+                        <div class="forecast hour" data-hour="16:00">
+                            <time class="hour-time" datetime="16:00">4 PM</time>
+                            <span class="temperature" data-temp="20">20°</span>
+                            <span class="condition" data-condition="Cloudy"
+                                >Cloudy</span
+                            >
+                        </div>
+                        <div class="forecast hour" data-hour="17:00">
+                            <time class="hour-time" datetime="17:00">5 PM</time>
+                            <span class="temperature" data-temp="21">21°</span>
+                            <span class="condition" data-condition="Rainy"
+                                >Rainy</span
+                            >
+                        </div>
+                        <div class="forecast hour" data-hour="18:00">
+                            <time class="hour-time" datetime="18:00">6 PM</time>
+                            <span class="temperature" data-temp="21">21°</span>
+                            <span class="condition" data-condition="Rainy"
+                                >Rainy</span
+                            >
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
